@@ -1,6 +1,9 @@
 package Serialization;
 
+import java.util.stream.Stream;
+
 public class CalculateGradeOfAge {
+
     public static int calculateGradeOfAge(int age) {
         int gradeOfInteger = 1;
         if (age > 0 && age <= 3)
