@@ -2,4 +2,5 @@
 .idea
 .test
 target
+src/main/java/blockVar
 TraineeGrenatom.iml

@@ -19,9 +19,9 @@ public class DecThread extends Thread {
     DecThread(ProgressBar bar) {
         this.incBar = bar;
         this.progressValue = 0.1;
-        incBar.setProgress(sample.SharedResource.valueProgressBar);
-
+//        incBar.setProgress(sample.SharedResource.valueProgressBar);
     }
+
 
     private void changeDecThread() {
 

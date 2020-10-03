@@ -12,39 +12,40 @@ public class Controller {
     @FXML
     Button buttonStart;
 
-    sample.changeProgress temp = new sample.changeProgress();
-    sample.IncThread inc = new sample.IncThread();
-    DecThread dec = new DecThread();
+//    sample.changeProgress temp = new sample.changeProgress();
+//    sample.IncThread inc = new sample.IncThread();
+//    DecThread dec = new DecThread();
+//
+//    private boolean isAlive() {
+//        if(temp.isAlive() || inc.isAlive() || dec.isAlive())
+//            return true;
+//        return false;
+//    }
 
-    private boolean isAlive() {
-        if(temp.isAlive() || inc.isAlive() || dec.isAlive())
-            return true;
-        return false;
-    }
+//    private void stopProgress() {
+//        if(isAlive()) {
+//            temp.interrupt();
+//            temp.stop();
+//            inc.interrupt();
+//            inc.stop();
+//            dec.interrupt();
+//            dec.stop();
+//        }
+//    }
 
-    private void stopProgress() {
-        if(isAlive()) {
-            temp.interrupt();
-            temp.stop();
-            inc.interrupt();
-            inc.stop();
-            dec.interrupt();
-            dec.stop();
-        }
-    }
+//    public void startProgress(ActionEvent event) {
+//        stopProgress();
+//        temp = new sample.changeProgress(mainProgressBar);
+//        temp.start();
+//    }
 
-    public void startProgress(ActionEvent event) {
-        stopProgress();
-        temp = new sample.changeProgress(mainProgressBar);
-        temp.start();
-    }
+//    public void breakAll(ActionEvent event) {
+//        inc = new sample.IncThread(mainProgressBar);
+//        dec = new DecThread(mainProgressBar);
+//        inc.start();
+//        dec.start();
+//    }
 
-    public void breakAll(ActionEvent event) {
-        inc = new sample.IncThread(mainProgressBar);
-        dec = new DecThread(mainProgressBar);
-        inc.start();
-        dec.start();
-    }
 }
     
 
