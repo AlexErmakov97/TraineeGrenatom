@@ -192,3 +192,4 @@ delete from sportsman where extract(year from year_of_birth) = '2001';
 
 
 
+
